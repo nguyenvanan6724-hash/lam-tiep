@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "filename": "esp32c6_recorder.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "name": "Default",
+        "clearance": 0.2,
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "bus_width": 12,
+        "wire_width": 6,
+        "line_style": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "tuning_profile": ""
+      },
+      {
+        "name": "POWER_1A",
+        "clearance": 0.2,
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "bus_width": 12,
+        "wire_width": 6,
+        "line_style": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "tuning_profile": ""
+      },
+      {
+        "name": "SW_NODE",
+        "clearance": 0.2,
+        "track_width": 0.8,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "bus_width": 12,
+        "wire_width": 6,
+        "line_style": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "tuning_profile": ""
+      },
+      {
+        "name": "USB",
+        "clearance": 0.2,
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.3,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "bus_width": 12,
+        "wire_width": 6,
+        "line_style": 0,
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "tuning_profile": ""
+      }
+    ],
+    "meta": {
+      "version": 5
+    },
+    "net_colors": {},
+    "netclass_assignments": {},
+    "netclass_patterns": [
+      {
+        "netclass": "POWER_1A",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "POWER_1A",
+        "pattern": "*VBAT"
+      },
+      {
+        "netclass": "POWER_1A",
+        "pattern": "*VSYS"
+      },
+      {
+        "netclass": "POWER_1A",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "POWER_1A",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "SW_NODE",
+        "pattern": "*BB_L1"
+      },
+      {
+        "netclass": "SW_NODE",
+        "pattern": "*BB_L2"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB_DP"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "*USB_DM"
+      }
+    ]
+  },
+  "schematic": {
+    "top_level_sheets": [
+      {
+        "filename": "esp32c6_recorder.kicad_sch",
+        "name": "esp32c6_recorder",
+        "uuid": "ea5d8908-9bb7-4cb5-b52f-f68ba9b9dbb3"
+      }
+    ]
+  },
+  "sheets": [
+    [
+      "ea5d8908-9bb7-4cb5-b52f-f68ba9b9dbb3",
+      "Root"
+    ]
+  ],
+  "boards": [],
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
+  },
+  "text_variables": {}
+}
