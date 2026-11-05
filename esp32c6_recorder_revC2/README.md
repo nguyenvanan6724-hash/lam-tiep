@@ -111,7 +111,7 @@ Rule chung của board (*Board Setup → Constraints*) giữ nguyên như rev C1
 
 **Thứ thật sự có thể làm cháy board là pin, không phải tụ:**
 
-- **Cắm ngược cực pin:** TP4056 và các đường nguồn sẽ hỏng ngay. Cực của đầu JST PH trên pin bán sẵn không thống nhất giữa các hãng, nên phải đo bằng đồng hồ trước khi cắm. Trên board, J7 chân 1 là GND, chân 2 là VBAT, có in dấu + / − ở silkscreen.
+- **Cắm ngược cực pin:** TP4056 gần như chắc chắn hỏng. Phía VSYS được Q6 chặn. Nếu pin không có PCM thì có thể chập cháy. Cực của đầu JST PH trên pin bán sẵn không thống nhất giữa các hãng, nên phải đo bằng đồng hồ trước khi cắm. Trên board, J7 chân 1 là GND, chân 2 là VBAT, có in dấu + / − ở silkscreen.
 - **Pin không có mạch bảo vệ (PCM):** nếu chập mạch thì không có gì chặn dòng. Schematic đã ghi "LiPo 1S (có PCM)", nhớ mua đúng loại có PCM.
 - **Tụ gốm bị nứt:** board bị cong có thể làm tụ gốm nứt và chập thành ngắn mạch. Trên đường pin, ngắn mạch kiểu này nguy hiểm. Đừng bẻ cong board, đừng siết vít lệch.
 
