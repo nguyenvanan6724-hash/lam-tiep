@@ -1,0 +1,6 @@
+# File tạm của KiCad
+*.lck
+fp-info-cache
+*-backups/
+.history/
+_autosave-*
